@@ -1,0 +1,20 @@
+#header {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	text-transform: uppercase;
+}
+#btn-sub:hover {
+		background-color: #CC3399;
+		color: white;
+}
+#btn-rm:hover {
+		background-color: #CC3399;
+		color: white;
+}
+#new-phrase{
+	text-align: center;
+	margin: 1em, 0, 1em, 0;
+}
+#h2{
+	font-family: 'Indie Flower', cursive;
+}
