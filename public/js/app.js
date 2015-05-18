@@ -26,8 +26,7 @@ View.render = function(items, parentId, templateId) {
 function Phrase() {};
 Phrase.all = function() {
 	$.get("/phrases", function(res){
-		var x = JSON.parse(res);
-		View.render(x, "phrases-ul", "phrases-template");
+		View.render(res, "phrases-ul", "phrases-template");
 	});
 };
 
@@ -40,9 +39,9 @@ Phrase.create = function(phraseParams) {
 };
 
 Phrase.delete = function(phrase){
-  var wordId = $(phrase).data().id;
+  var $phrase = $(phrase).data('id');
   $.ajax({
-    url: '/phrases/' + wordId,
+    url: '/phrases/' + $phrase,
     type: 'DELETE',
     success: function(res){
       Phrase.all()

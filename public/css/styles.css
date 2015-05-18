@@ -1,7 +1,48 @@
-#header {
-	font-family: 'Indie Flower', cursive;
-	text-align: center;
+html {
+  margin: 0 10em 0 10em;	
+}
+#head {
+	font-family: 'Megrim', cursive;
+}
+div#headCon {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: black;
+}
+h2 {
+	text-align: right;
 	text-transform: uppercase;
+	font-family: 'Megrim', cursive;
+}
+
+button#btn-rm {
+	text-align: right;
+}
+#header {
+	text-align: right;
+	text-transform: uppercase;
+	color: white;
+}
+#new-phrase{
+	margin: 1em 0 1em 0;
+}
+.form-group {
+  margin-top: -3em;
+}
+input#word-form {
+  padding-right: 8em;
+  margin-right: 1em;
+}
+textarea#def-form {
+  margin-top: 2.77em;
+  padding-right: 8em;
+}
+textarea {
+  resize: none;
+}
+#btn-sub {
+	margin-top: 2em;
 }
 #btn-sub:hover {
 		background-color: #CC3399;
@@ -10,11 +51,4 @@
 #btn-rm:hover {
 		background-color: #CC3399;
 		color: white;
-}
-#new-phrase{
-	text-align: center;
-	margin: 1em, 0, 1em, 0;
-}
-#h2{
-	font-family: 'Indie Flower', cursive;
 }
